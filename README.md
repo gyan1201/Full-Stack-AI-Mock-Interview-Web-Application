@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# FullStack Blog Application
+# Full-Stack AI Mock Interview Platform  
 
-A modern, full-stack blog application built with Next.js 13, TypeScript, Tailwind CSS, and Prisma. This application demonstrates best practices for building scalable web applications with modern technologies.
+A modern, Full-Stack AI Mock Interview Platform application built with Next.js 13, TypeScript, Tailwind CSS, and Prisma. This application demonstrates best practices for building scalable web applications with modern technologies.
 
 ## Features
 
