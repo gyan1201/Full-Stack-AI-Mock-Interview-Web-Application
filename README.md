@@ -1,34 +1,65 @@
 # Full-Stack-AI-Mock-Interview-Web-Application
 Built an AI-powered full-stack web app for mock interviews, featuring live AI avatar interviews, automated real-time feedback, and secure subscription management.
 
-Description:
-• Developed a comprehensive full-stack AI mock interview application completely from scratch, designed to provide AI-powered practice sessions for mastering job interviews.
-• The application features a live streaming AI avatar that conducts mock interviews and provides real-time feedback.
-Key Features & Accomplishments:
-• AI-Driven Interview Generation:
-    ◦ Engineered a system to generate AI mock interview questions based on user-uploaded resumes or inputted job descriptions and titles.
-    ◦ Orchestrated complex application workflows using n8n automation, allowing for efficient, drag-and-drop logic for AI question generation and feedback.
-    ◦ Integrated ImageKit for free cloud storage of uploaded PDF resumes, facilitating content extraction for AI processing.
-    ◦ Utilized OpenAI's ChatGPT (or other AI models like Gemini) to power question generation based on provided resume/job data and to analyze conversations for feedback.
-• Interactive Interview Experience:
-    ◦ Integrated Akul's streaming avatar API to connect users to a live AI agent for mock interviews, enabling real-time listening and interaction.
-    ◦ Displayed live conversation transcripts during the interview session.
-    ◦ Provided intuitive in-call controls including mute/unmute and call termination.
-• Automated Feedback & Reporting:
-    ◦ Implemented a system to generate detailed interview feedback (including suggestions and a rating out of 10) within seconds after an interview concludes.
-    ◦ Processed interview conversation messages through n8n's AI workflow to produce this comprehensive feedback.
-• Robust User Management & Security:
-    ◦ Integrated Clerk for comprehensive and secure authentication, supporting Gmail, email/password, and social sign-on methods.
-    ◦ Utilized Clerk's subscription billing feature to implement free and paid membership tiers (e.g., limiting free users to two interviews daily), easily adding a pricing table and managing payments.
-    ◦ Enhanced application security and implemented rate limiting for interview creation, bot detection, email validation, and attack protection using Arja.
-• Scalable Data Infrastructure:
-    ◦ Leveraged Convex as a real-time, open-source database for storing all interview sessions, user information, and application data, benefiting from its type safety, file storage, and serverless functions.
-    ◦ Designed database schemas for user profiles and interview sessions, ensuring efficient data retrieval and relationships.
-• Modern Web Development Practices:
-    ◦ Developed the application using React and Next.js, utilizing Next.js features like folder-based routing, built-in optimization, React Server Components, and client-side rendering for a performant application.
-    ◦ Styled the user interface with Tailwind CSS, complemented by ShadCN and Aceternity UI for pre-built, customizable UI components.
-    ◦ Managed global application state effectively using React's Context API.
-    ◦ Ensured code quality and type safety throughout the development process with TypeScript.
-• Deployment & Production Readiness:
-    ◦ Successfully deployed the full-stack application to Vercel, enabling continuous integration and delivery.
-    ◦ Configured n8n automation workflows for both local development and production environments, with a focus on seamless deployment via Hostinger for scalable AI automation
+# 🤖 Full-Stack AI Mock Interview Platform  
+
+An end-to-end **AI-powered SaaS application** built from scratch to help users **prepare for job interviews** with realistic **AI-driven mock interview sessions**.  
+
+The platform features a **live streaming AI avatar interviewer**, **real-time feedback**, and a **subscription model**, combining the power of AI with modern full-stack development practices.  
+
+---
+
+## 🚀 Key Features  
+
+### 🎯 AI-Driven Interview Generation  
+- Generates interview questions based on **uploaded resumes (PDF)** or **job descriptions**.  
+- Automated workflows powered by **n8n** for drag-and-drop orchestration.  
+- **ImageKit** integration for free cloud storage and resume text extraction.  
+- **OpenAI / Gemini** models generate tailored interview questions + analyze conversations.  
+
+### 🗣️ Interactive Interview Experience  
+- **Akool Streaming Avatar API** conducts **live interviews** with real-time interaction.  
+- Displays **conversation transcripts** during sessions.  
+- In-call controls: **mute/unmute** and **end call**.  
+
+### 📊 Automated Feedback & Reporting  
+- Generates **detailed feedback** (strengths, suggestions, rating out of 10).  
+- Uses **n8n AI workflows** to process interview conversations.  
+- Feedback stored in user dashboard for review anytime.  
+
+### 🔐 User Management & Security  
+- **Clerk** for secure authentication (Gmail, email/password, social login).  
+- Subscription billing with free & paid tiers (limit free users to 2 interviews/day).  
+- **Arja** for rate limiting, bot detection, email validation, and attack prevention.  
+
+### 💾 Scalable Data Infrastructure  
+- **Convex DB** (real-time, open-source) for storing sessions, users, and app data.  
+- Designed schemas for **user profiles & interview sessions** with relationships.  
+
+### 💻 Modern Web Development Stack  
+- **React + Next.js** (folder-based routing, RSC, client/server rendering).  
+- **Tailwind CSS** + **ShadCN** + **Aceternity UI** for sleek UI.  
+- **React Context API** for global state management.  
+- **TypeScript** for type safety and code quality.  
+
+### ☁️ Deployment & Production Readiness  
+- Deployed frontend to **Vercel** with CI/CD.  
+- **n8n workflows** deployed on **Hostinger** for scalable AI automation.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend**: React, Next.js, Tailwind CSS, ShadCN, Aceternity UI  
+- **Backend/Automation**: n8n, OpenAI/Gemini, Convex DB  
+- **Auth & Billing**: Clerk (OAuth, MFA, Stripe billing)  
+- **AI Avatar**: Akool API (live streaming interviews)  
+- **Storage**: ImageKit (resume storage & parsing)  
+- **Security**: Arja (rate limiting, bot detection)  
+- **Deployment**: Vercel (frontend), Hostinger (n8n workflows)  
+
+---
+
+## 📷 Screenshots  
+
+
